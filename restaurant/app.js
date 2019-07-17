@@ -69,6 +69,7 @@ let EntreeMenu = EntreeDishes.map(entreeDish =>{
 })
 menuOption.innerHTML = EntreeMenu.join('')
 })
+SVGPathSegCurvetoCubicAbs
 
 /* the dessert menu page */
 
