@@ -69,7 +69,7 @@ let EntreeMenu = EntreeDishes.map(entreeDish =>{
 })
 menuOption.innerHTML = EntreeMenu.join('')
 })
-SVGPathSegCurvetoCubicAbs
+
 
 /* the dessert menu page */
 
@@ -77,6 +77,7 @@ dessert.addEventListener('click', function(){
     let dessertDishes = dishes.filter(function(course){
         return course.course=="dessert"
     })
+
     let dessertMenu = dessertDishes.map(dessertDishes =>{
         let dessertMenu = `<div>
 
